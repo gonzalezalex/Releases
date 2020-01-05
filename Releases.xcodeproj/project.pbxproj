@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A842ADD923C287A100BCC90D /* nikeclotinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842ADD823C287A100BCC90D /* nikeclotinfo.swift */; };
+		A842ADDB23C287BC00BCC90D /* kyrie6info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842ADDA23C287BC00BCC90D /* kyrie6info.swift */; };
 		A8EE334923BE56EE00FA61F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE334823BE56EE00FA61F7 /* AppDelegate.swift */; };
 		A8EE334B23BE56EE00FA61F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE334A23BE56EE00FA61F7 /* SceneDelegate.swift */; };
 		A8EE334D23BE56EE00FA61F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE334C23BE56EE00FA61F7 /* ContentView.swift */; };
 		A8EE334F23BE56EE00FA61F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EE334E23BE56EE00FA61F7 /* Assets.xcassets */; };
 		A8EE335223BE56EE00FA61F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EE335123BE56EE00FA61F7 /* Preview Assets.xcassets */; };
 		A8EE335523BE56EE00FA61F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EE335323BE56EE00FA61F7 /* LaunchScreen.storyboard */; };
-		A8EE335D23BE5C4E00FA61F7 /* ReleaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE335C23BE5C4E00FA61F7 /* ReleaseInfo.swift */; };
-		A8EE335F23BEA4A900FA61F7 /* Upcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE335E23BEA4A900FA61F7 /* Upcoming.swift */; };
-		A8EE336123BEB0E100FA61F7 /* Releases.json in Resources */ = {isa = PBXBuildFile; fileRef = A8EE336023BEB0E100FA61F7 /* Releases.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A842ADD823C287A100BCC90D /* nikeclotinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nikeclotinfo.swift; sourceTree = SOURCE_ROOT; };
+		A842ADDA23C287BC00BCC90D /* kyrie6info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kyrie6info.swift; sourceTree = "<group>"; };
 		A8EE334523BE56EE00FA61F7 /* Releases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Releases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EE334823BE56EE00FA61F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EE334A23BE56EE00FA61F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +28,6 @@
 		A8EE335123BE56EE00FA61F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8EE335423BE56EE00FA61F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EE335623BE56EE00FA61F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8EE335C23BE5C4E00FA61F7 /* ReleaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseInfo.swift; sourceTree = "<group>"; };
-		A8EE335E23BEA4A900FA61F7 /* Upcoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upcoming.swift; sourceTree = "<group>"; };
-		A8EE336023BEB0E100FA61F7 /* Releases.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Releases.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +60,11 @@
 		A8EE334723BE56EE00FA61F7 /* Releases */ = {
 			isa = PBXGroup;
 			children = (
+				A842ADD823C287A100BCC90D /* nikeclotinfo.swift */,
+				A842ADDA23C287BC00BCC90D /* kyrie6info.swift */,
 				A8EE334823BE56EE00FA61F7 /* AppDelegate.swift */,
 				A8EE334A23BE56EE00FA61F7 /* SceneDelegate.swift */,
 				A8EE334C23BE56EE00FA61F7 /* ContentView.swift */,
-				A8EE335C23BE5C4E00FA61F7 /* ReleaseInfo.swift */,
-				A8EE335E23BEA4A900FA61F7 /* Upcoming.swift */,
-				A8EE336023BEB0E100FA61F7 /* Releases.json */,
 				A8EE334E23BE56EE00FA61F7 /* Assets.xcassets */,
 				A8EE335323BE56EE00FA61F7 /* LaunchScreen.storyboard */,
 				A8EE335623BE56EE00FA61F7 /* Info.plist */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EE335523BE56EE00FA61F7 /* LaunchScreen.storyboard in Resources */,
-				A8EE336123BEB0E100FA61F7 /* Releases.json in Resources */,
 				A8EE335223BE56EE00FA61F7 /* Preview Assets.xcassets in Resources */,
 				A8EE334F23BE56EE00FA61F7 /* Assets.xcassets in Resources */,
 			);
@@ -157,10 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EE334923BE56EE00FA61F7 /* AppDelegate.swift in Sources */,
-				A8EE335F23BEA4A900FA61F7 /* Upcoming.swift in Sources */,
-				A8EE335D23BE5C4E00FA61F7 /* ReleaseInfo.swift in Sources */,
 				A8EE334B23BE56EE00FA61F7 /* SceneDelegate.swift in Sources */,
+				A842ADD923C287A100BCC90D /* nikeclotinfo.swift in Sources */,
 				A8EE334D23BE56EE00FA61F7 /* ContentView.swift in Sources */,
+				A842ADDB23C287BC00BCC90D /* kyrie6info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
